@@ -3,9 +3,10 @@ import java.util.Stack;
 public class leet {
 
 	public static void main(String[] args) {
-		int count = 102;
-	    System.out.print(5 & 7);
-		
+		int array[] = new int[5];
+		for(int num : array) {
+			System.out.print(num);
+		}
 	}
 	
 	
