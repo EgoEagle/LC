@@ -3,12 +3,8 @@ import java.util.Stack;
 public class leet {
 
 	public static void main(String[] args) {
-
-	    int[] array = countBits(100);
-	    
-	    for(int i : array){
-	        System.out.println(i);
-	    }
+		int count = 102;
+	    System.out.print(5 & 7);
 		
 	}
 	
