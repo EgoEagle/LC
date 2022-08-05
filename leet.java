@@ -4,7 +4,7 @@ public class leet {
 
 	public static void main(String[] args) {
 
-	    int[] array = countBits(5);
+	    int[] array = countBits(100);
 	    
 	    for(int i : array){
 	        System.out.println(i);
@@ -13,17 +13,20 @@ public class leet {
 	}
 	
 	
-	
+	//
 	public static int[] countBits(int n) {
-	    int[] dp = new int[n + 1];
-	    int offset = 1;
-	    
-	    for (int i = 1; i <= n; i++) {
-	        if (offset * 2 == i) offset = i;
-	        dp[i] = 1 + dp[i-offset];
-	    }
-	    
-	    return dp;
+        int ans[] = new int[n+1];
+        int numOnes = 0;
+        for(int i =0; i<n+1;i++){
+        	int temp = i;
+            while(temp!=0){
+                if(temp%2 == 1) numOnes++;
+                temp=temp>>1;
+            }
+            ans[i]= numOnes;
+            numOnes = 0;
+        }
+        return ans;
 	}
 
 }
