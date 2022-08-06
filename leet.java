@@ -1,12 +1,21 @@
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Stack;
 
 public class leet {
 
 	public static void main(String[] args) {
-		int array[] = new int[5];
-		for(int num : array) {
-			System.out.print(num);
+		HashSet<Integer> set = new HashSet<Integer>();
+		
+		set.add(1);
+		set.add(2);
+		set.add(3);
+		
+		Iterator<Integer> itr = set.iterator();
+		while(itr.hasNext()) {
+			System.out.print(itr.next());
 		}
+		
 	}
 	
 	
