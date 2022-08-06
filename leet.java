@@ -7,14 +7,8 @@ public class leet {
 	public static void main(String[] args) {
 		HashSet<Integer> set = new HashSet<Integer>();
 		
-		set.add(1);
-		set.add(2);
-		set.add(3);
-		
-		Iterator<Integer> itr = set.iterator();
-		while(itr.hasNext()) {
-			System.out.print(itr.next());
-		}
+
+		System.out.print(Integer.MAX_VALUE);
 		
 	}
 	
