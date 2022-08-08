@@ -13,7 +13,7 @@ public class leet {
 		int z = 345;
 		String a = String.valueOf(z);
 		System.out.println(y+y);
-		System.out.print(z);
+		System.out.print(a+a);
 		
 	}
 	
