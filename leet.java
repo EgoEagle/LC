@@ -10,7 +10,10 @@ public class leet {
 
 		String x = "123";
 		int y = Integer.valueOf(x);
-		System.out.print(y+y);
+		int z = 345;
+		String a = String.valueOf(z);
+		System.out.println(y+y);
+		System.out.print(z);
 		
 	}
 	
