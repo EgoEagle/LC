@@ -17,7 +17,16 @@ public class leet {
 		System.out.print(a);*/
 		
 		int nums[] = new int[] {4 , 2 , 10 , 22, 9 };
+		String words[] = new String[] {"bat","bart","chat","hm", "ok","p"};
 		Arrays.sort(nums);
+		Arrays.sort(words);
+		
+		for(String word : words) {
+			
+			System.out.println(word);
+		}
+		
+		
 		for(int num : nums) {
 				System.out.println(num);
 		}
