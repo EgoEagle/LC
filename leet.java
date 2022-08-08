@@ -9,8 +9,8 @@ public class leet {
 		
 
 		String x = "123";
-		Integer y = Integer.valueOf(x);
-		System.out.print(y);
+		int y = Integer.valueOf(x);
+		System.out.print(y+y);
 		
 	}
 	
