@@ -8,7 +8,9 @@ public class leet {
 		HashSet<Integer> set = new HashSet<Integer>();
 		
 
-		System.out.print(Integer.MAX_VALUE);
+		String x = "123";
+		Integer y = Integer.valueOf(x);
+		System.out.print(y);
 		
 	}
 	
