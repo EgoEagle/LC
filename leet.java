@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Stack;
@@ -8,12 +9,19 @@ public class leet {
 		HashSet<Integer> set = new HashSet<Integer>();
 		
 
-		String x = "123";
+	/*	String x = "123";
 		int y = Integer.valueOf(x);
 		int z = 345;
 		String a = String.valueOf(z);
 		System.out.println(y+y);
-		System.out.print(a+y);
+		System.out.print(a);*/
+		
+		int nums[] = new int[] {4 , 2 , 10 , 22, 9 };
+		Arrays.sort(nums);
+		for(int num : nums) {
+				System.out.println(num);
+		}
+		
 		
 	}
 	
