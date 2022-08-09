@@ -1,2 +1,2 @@
 # LC
-1
+Java LeetCode
