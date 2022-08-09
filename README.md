@@ -1,2 +1,2 @@
 # LC
-Java LeetCode
+Java LeetCode Easy/Med
