@@ -21,15 +21,13 @@ public class leet {
 		Arrays.sort(nums);
 		Arrays.sort(words);
 		
-		for(String word : words) {
+		for(int i = 0 ; i<words.length-1;i++) {
 			
-			System.out.println(word);
+			System.out.println(words[i]);
 		}
 		
 		
-		for(int num : nums) {
-				System.out.println(num);
-		}
+
 		
 		
 	}
