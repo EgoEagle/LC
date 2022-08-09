@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -15,21 +16,30 @@ public class leet {
 		String a = String.valueOf(z);
 		System.out.println(y+y);
 		System.out.print(a);*/
-		
+		ArrayList<Integer> al = new ArrayList<Integer>();
 		int nums[] = new int[] {4 , 2 , 10 , 22, 9 };
 		String words[] = new String[] {"bat","bart","chat","hm", "ok","p"};
 		Arrays.sort(nums);
 		Arrays.sort(words);
 		
-		for(int i = 0 ; i<words.length-1;i++) {
+		for(int i = 0 ; i<words.length;i++) {
 			
 			System.out.println(words[i]);
 		}
 		
+		update(al);
+		update(al);
+		update(al);
+		
+		System.out.print(al);
 		
 
 		
 		
+	}
+	
+	public static void update(ArrayList<Integer> al) {
+		al.add(3);
 	}
 	
 	
