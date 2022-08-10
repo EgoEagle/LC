@@ -1,3 +1,3 @@
 # LC
 Java LeetCode Easy/Med/
-2
+28
