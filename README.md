@@ -1,5 +1,5 @@
 # LC
 Java LeetCode BB
-3
+33
 3
 3
