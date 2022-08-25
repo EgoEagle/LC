@@ -2,14 +2,3 @@
 Java LeetCode BB
 h
 ghj
-l
-l;'l
-l;'
-asd
-asd
-as
-asd
-gfh
-asda
-sa
-asda
