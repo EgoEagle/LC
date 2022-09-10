@@ -5,11 +5,6 @@ ipoi
     qw
 567
 asda
-asd
-sda
-adsas
-das
-wqewytjjtyjt
-asdasytjt
+a
 asdsa
 456
